@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
+
 
 # C extensions
 *.so
@@ -140,6 +142,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+.venv/
 ENV/
 env.bak/
 venv.bak/
@@ -211,7 +214,6 @@ __marimo__/
 
 CLAUDE.md
 generar_datos.py
-soluciones/*
 solucion.md
 reporte_verificacion_completo.py
 verificar_limpiezas.py
