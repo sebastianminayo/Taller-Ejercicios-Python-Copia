@@ -1,11 +1,10 @@
+import sys
+sys.path.insert(0, '.')
 import limpieza_utils
 
 def solucionar():
-    # 1. Obtener los datos con profesiones ya normalizadas
     df = limpieza_utils.obtener_df_limpio()
     
-    # 2. Filtrar exactamente por "Ingeniero"
-    # Nuestra limpieza ya quitó el '@' de '@Ingeniero'
     cantidad_ingeniero = df[df['profesion'] == 'Ingeniero'].shape[0]
     
     print(f"========================================")

@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, ".")
 import limpieza_utils
 
 def solucionar():
